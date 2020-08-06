@@ -29,6 +29,9 @@ class Solution {
         // 1 ms, faster than 74.68%
         // 43.8 MB, less than 5.23%
         
+        // Time complexity: O(N), N = # of nodes
+        // Space complexity: O(N)
+        
         ArrayList<Integer> postOrder = new ArrayList<>();
         
         postOrderTraversal(root, postOrder);
