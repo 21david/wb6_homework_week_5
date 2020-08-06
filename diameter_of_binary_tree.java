@@ -63,3 +63,19 @@ class Solution {
         return Math.max(l, r) + 1;
     }
 }
+
+/*
+
+Test cases:
+(image: imgur.com/a/lChPLyS 
+ each line of input corresponds to a tree in the image)
+
+[1,2,3,4,5]
+[1]
+[2,null,2,null,2,null,4]
+[2,3,6,4,null,null,null,5]
+[2,4,18,6,12,null,20,8,null,14,16,26,22,null,10,null,null,null,null,null,null,24,null,null,null,null,28]
+[7,9,21,13,null,15,17,null,11,27,null,23,33,null,null,31,null,29,null,null,3,null,25,null,null,5,1,null,41,null,null,null,19]
+[1,null,5,7,21,13,null,null,23,null,15,27,29]
+
+*/
